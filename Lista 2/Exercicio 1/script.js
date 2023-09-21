@@ -1,4 +1,4 @@
-let button = document.querySelector("button")
+let button = document.querySelector("button");
 
 button.addEventListener('click', () => {
     let num1 = Number(document.getElementById("num1").value);

@@ -2,12 +2,15 @@ let button = document.querySelector("button")
 
 button.addEventListener('click', () =>{
 
-let num = Number(document.getElementById("num").value);
-let h2 = document.querySelector("h2");
+let num1 = Number(document.getElementById("num1").value);
+let num2 = Number(document.getElementById("num2").value);
+let num3 = Number(document.getElementById("num3").value);
+let elem_num1 = document.querySelector("id1");
+let elem_num2 = document.querySelector("id2");
+let elem_num3 = document.querySelector("id3");
 
-if (num%2 === 0)
-h2.innerHTML = `É par`
-else
-h2.innerHTML = `É impar`
+var maior,meio,menor;
+
+
 
 })

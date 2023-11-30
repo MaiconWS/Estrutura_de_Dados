@@ -1,0 +1,13 @@
+@model GranTiete_Devs.ViewModels.LoginVM;
+@{
+    Layout = null
+}
+
+<h2>Conectando</h2>
+
+<form method="post">
+    <input type="text" name="Email">
+    <input type="password" name="Password">
+    <button type="submit">Enviar</button>
+    <h2>@ViewData["Resultado"]</h2>
+</form>

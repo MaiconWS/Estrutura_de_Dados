@@ -1,0 +1,12 @@
+html,
+body {
+    height: 100%;
+    background-color: black;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
